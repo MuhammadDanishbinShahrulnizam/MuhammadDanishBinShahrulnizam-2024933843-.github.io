@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Personal Website</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+@keyframes moveTitle {
+    0%   { transform: translateX(-120px); }
+    50%  { transform: translateX(120px); }
+    100% { transform: translateX(-120px); }
+}
+</style>
+</head>
+
+<body style="
+margin:0;
+font-family:'Poppins', sans-serif;
+background-image:url('background.jpg');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+">
+
+<div style="
+display:grid;
+grid-template-columns:220px auto;
+grid-template-rows:120px auto;
+height:100vh;
+background-color:rgba(255,255,255,0.55);
+backdrop-filter:blur(5px);
+">
+
+
+<div style="
+grid-row:1 / span 2;
+background-color:rgba(64,120,90,0.9);
+border-right:2px solid #ddd;
+box-shadow:3px 0 6px rgba(0,0,0,0.1);
+padding:25px 15px;
+text-align:center;
+overflow-y:auto;
+">
+
+<div style="
+width:130px;
+height:130px;
+margin:10px auto 20px;
+border-radius:50%;
+overflow:hidden;
+box-shadow:0 5px 12px rgba(0,0,0,0.3);
+border:4px solid white;
+">
+<img src="profile1.jpeg" style="width:100%;height:100%;object-fit:cover;">
+</div>
+
+<p style="font-weight:600;margin-bottom:25px;color:white;">
+MUHAMMAD DANISH BIN SHAHRULNIZAM (2024933843)
+</p>
+
+<a href="index.html" style="display:block;margin:10px 0;padding:10px;color:#fff;background:rgba(255,255,255,0.15);border-radius:8px;text-decoration:none;">Home</a>
+
+<details>
+<summary style="cursor:pointer;padding:10px;color:#fff;">About Myself</summary>
+<div style="margin-left:15px;">
+<a href="about myself.html" style="display:block;color:#eaf5ef;">• About Me</a>
+<a href="biodata.html" style="display:block;color:#eaf5ef;">• Biodata</a>
+<a href="hobby.html" style="display:block;color:#eaf5ef;">• Hobby</a>
+</div>
+</details>
+
+<a href="family.html" style="display:block;margin:10px 0;color:#fff;">Family</a>
+<a href="gallery.html" style="display:block;margin:10px 0;color:#fff;">Gallery</a>
+
+<details>
+<summary style="cursor:pointer;padding:10px;color:#fff;">Education</summary>
+<div style="margin-left:15px;">
+<a href="University Life.html" style="display:block;color:#eaf5ef;">• University Life</a>
+<a href="Secondary School.html" style="display:block;color:#eaf5ef;">• Secondary School</a>
+<a href="Elementary School.html" style="display:block;color:#eaf5ef;">• Elementary School</a>
+</div>
+</details>
+
+<a href="copyright.html" style="display:block;margin:10px 0;color:#fff;">Copyright</a>
+<a href="contact.html" style="display:block;margin:10px 0;color:#fff;">Contact</a>
+
+</div>
+
+
+<div style="
+grid-column:2;
+border-bottom:2px solid #ddd;
+background-color:rgba(180,220,195,0.85);
+"></div>
+
+
+<div style="grid-column:2;padding:30px;overflow-y:auto;">
+
+
+<div style="
+width:100%;
+height:70vh;
+border-radius:22px;
+overflow:hidden;
+box-shadow:0 6px 16px rgba(0,0,0,0.35);
+margin-bottom:40px;
+position:relative;
+">
+
+<video autoplay muted loop playsinline style="
+width:100%;
+height:100%;
+object-fit:cover;
+position:absolute;
+top:0;
+left:0;
+">
+<source src="banner.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<div style="text-align:center;">
+
+<div style="
+font-family:'Playfair Display', serif;
+font-size:42px;
+color:#3d2b1f;
+margin-bottom:25px;
+display:inline-block;
+animation: moveTitle 6s ease-in-out infinite;
+">
+Welcome to My Personal Website
+</div>
+
+<p style="font-size:18px;margin-bottom:20px;">
+This website contains information about:
+</p>
+
+<div style="
+background:rgba(255,255,255,0.85);
+padding:45px 70px;
+border-radius:22px;
+box-shadow:0 6px 15px rgba(0,0,0,0.15);
+display:inline-block;
+text-align:left;
+min-width:460px;
+font-size:21px;
+">
+
+<details>
+<summary style="cursor:pointer;">About Myself</summary>
+<ul style="list-style:none;padding-left:0;">
+<li><a href="about myself.html">About Me</a></li>
+<li><a href="biodata.html">Biodata</a></li>
+<li><a href="hobby.html">Hobby</a></li>
+</ul>
+</details>
+
+<p><a href="family.html">Family</a></p>
+<p><a href="gallery.html">Gallery</a></p>
+
+<details>
+<summary style="cursor:pointer;">Education</summary>
+<ul style="list-style:none;padding-left:0;">
+<li><a href="University Life.html">University Life</a></li>
+<li><a href="Secondary School.html">Secondary School</a></li>
+<li><a href="Elementary School.html">Elementary School</a></li>
+</ul>
+</details>
+
+<p><a href="copyright.html">Copyright</a></p>
+<p><a href="contact.html">Contact</a></p>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div style="
+position:fixed;
+bottom:10px;
+right:20px;
+font-size:14px;
+color:#333;
+background:rgba(255,255,255,0.6);
+padding:6px 12px;
+border-radius:8px;
+">
+© 2025 Danish Shahrul Studio. All Rights Reserved.
+</div>
+
+</body>
+</html>
+
